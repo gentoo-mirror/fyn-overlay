@@ -1,0 +1,14 @@
+BDEPEND=app-arch/rpm2targz
+DEFINED_PHASES=install nofetch postinst unpack
+DEPEND=x11-libs/gtk+:3 x11-libs/libxcb
+DESCRIPTION=Motrix is a full-featured download manager
+EAPI=8
+HOMEPAGE=https://motrix.app/
+INHERIT=rpm desktop
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=x11-libs/gtk+:3 x11-libs/libxcb
+SLOT=0
+SRC_URI=https://github.rc1844.workers.dev/agalwood/Motrix/releases/download/v1.6.11/Motrix-1.6.11.x86_64.rpm -> motrix-1.6.11.rpm
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	rpm	f73e907469f65e52192f110dec72dce0	desktop	c0d27bf73aa08ca05b663dbd31fbef28
+_md5_=3de298aa9b5c14ca7b7848daeb14c0a9

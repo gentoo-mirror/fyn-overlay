@@ -6,4 +6,4 @@ KEYWORDS=~amd64
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.rc1844.workers.dev/reruin/sharelist/releases/download/v0.3.12/sharelist_linux_amd64.tar.gz
-_md5_=0bf72b3c95ea40cd840ff759d67365ba
+_md5_=96f8167cdde96a7b3609c8c56c429516

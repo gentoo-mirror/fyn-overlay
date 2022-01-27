@@ -6,3 +6,4 @@ net-misc/sharelist 0.3.12: ShareList 是一个易用的网盘工具，支持快�
 sys-kernel/linux-tkg-sources 5.15.10 5.15.11 5.15.13 5.15.14 5.16.2: the Linux Kernel with a selection of patches aiming for better desktop/gaming experience and Gentoo's genpatches
 www-client/motrix 1.6.11: Motrix is a full-featured download manager
 x11-terms/tabby 1.0.170: Tabby (formerly Terminus) is a highly configurable terminal emulator
+x11-wm/gwm 0.9.15: X11 window manager written with XLIB + C

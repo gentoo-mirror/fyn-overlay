@@ -1,0 +1,13 @@
+BDEPEND=dev-util/ctags
+DEFINED_PHASES=configure postinst
+DEPEND=x11-base/xorg-server acpi? ( sys-power/acpi ) xsetroot? ( x11-apps/xsetroot ) dmenu? ( x11-misc/dmenu )
+DESCRIPTION=X11 window manager written with XLIB + C
+EAPI=8
+HOMEPAGE=https://sourceforge.net/projects/gsmwm/
+IUSE=acpi xsetroot dmenu
+KEYWORDS=~amd64
+LICENSE=GPLv3
+RDEPEND=x11-base/xorg-server acpi? ( sys-power/acpi ) xsetroot? ( x11-apps/xsetroot ) dmenu? ( x11-misc/dmenu )
+SLOT=0
+SRC_URI=https://master.dl.sourceforge.net/project/gsmwm/gwm-0.9.15.tar.gz?viasf=1
+_md5_=f885369da3a70955a53f6a8aba84218f

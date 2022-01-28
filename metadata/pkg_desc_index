@@ -1,5 +1,6 @@
 app-editors/trilium 0.48.9 0.49.3 0.49.5: Trilium Notes is a hierarchical note taking application with focus on building large personal knowledge bases.
 app-editors/vscodium 1.62.2 1.62.3 1.63.0 1.63.2: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-office/wps-office-global 11.1.0.10920: WPS Office is an office productivity suite, Here is the Global version
 app-office/wps-office-mui-zh-cn 11.1.0.10920: Chinese (Simplified) mui package for WPS Office
 media-sound/yesplaymusic 0.4.2: High-quality third-party NetEase cloud player
 net-fs/samba 4.14.10-r2 4.15.2-r2 4.15.3-r1 4.15.4 4.16.0_rc1: Samba Suite Version 4

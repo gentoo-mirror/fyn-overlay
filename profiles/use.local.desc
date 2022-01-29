@@ -27,3 +27,6 @@ sys-kernel/linux-tkg-sources:bmq - Replace cfs by dmq/pds
 sys-kernel/linux-tkg-sources:cfs - Add several minimal improvement to cfs
 sys-kernel/linux-tkg-sources:cjktty - Add cjk support to tty
 sys-kernel/linux-tkg-sources:pds - Replace cfs by old pds
+x11-wm/gwm:acpi - Add sys-power/acpi as a dependence
+x11-wm/gwm:dmenu - Add x11-misc/dmenu as a dependence
+x11-wm/gwm:xsetroot - Add x11-apps/xetroot as a dependence

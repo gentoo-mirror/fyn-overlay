@@ -8,6 +8,6 @@ net-fs/samba 4.14.10-r2 4.14.12 4.15.2-r2 4.15.3-r1 4.15.4 4.15.5 4.16.0_rc2: Sa
 net-misc/sharelist 0.3.12 0.3.15: ShareList 是一个易用的网盘工具，支持快速挂载 GoogleDrive、OneDrive ，可通过插件扩展功能。
 sys-kernel/linux-tkg-sources 5.15.10 5.15.11 5.15.13 5.15.14 5.16.2 5.16.3 5.16.4 5.16.5 5.16.7 5.16.9: the Linux Kernel with a selection of patches aiming for better desktop/gaming experience and Gentoo's genpatches
 www-client/motrix 1.6.11: Motrix is a full-featured download manager
-x11-terms/tabby 1.0.170: Tabby (formerly Terminus) is a highly configurable terminal emulator
+x11-terms/tabby 1.0.170 1.0.172: Tabby (formerly Terminus) is a highly configurable terminal emulator
 x11-themes/la-capitaine-icon-theme 0.6.2: Icon pack based in macOS and Google Material Design
 x11-wm/gwm 0.9.15: X11 window manager written with XLIB + C

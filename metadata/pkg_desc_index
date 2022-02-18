@@ -4,7 +4,7 @@ app-editors/vscodium 1.62.2 1.62.3 1.63.0 1.63.2 1.64.0 1.64.1: A community-driv
 app-office/wps-office-global 11.1.0.10920: WPS Office is an office productivity suite, Here is the Global version
 app-office/wps-office-mui-zh-cn 11.1.0.10920: Chinese (Simplified) mui package for WPS Office
 media-sound/yesplaymusic 0.4.2 0.4.3: High-quality third-party NetEase cloud player
-net-fs/samba 4.14.10-r2 4.14.12 4.15.2-r2 4.15.3-r1 4.15.4 4.15.5 4.16.0_rc3: Samba Suite Version 4
+net-fs/samba 4.14.10-r3 4.14.12-r1 4.15.2-r3 4.15.3-r2 4.15.4-r1 4.15.5-r1 4.16.0_rc3-r1: Samba Suite Version 4
 net-misc/sharelist 0.3.12 0.3.15: ShareList 是一个易用的网盘工具，支持快速挂载 GoogleDrive、OneDrive ，可通过插件扩展功能。
 sys-kernel/linux-tkg-sources 5.15.10 5.15.11 5.15.13 5.15.14 5.16.2 5.16.3 5.16.4 5.16.5 5.16.7 5.16.9: the Linux Kernel with a selection of patches aiming for better desktop/gaming experience and Gentoo's genpatches
 www-client/motrix 1.6.11: Motrix is a full-featured download manager

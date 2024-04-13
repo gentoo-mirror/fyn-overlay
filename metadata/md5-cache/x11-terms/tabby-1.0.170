@@ -8,5 +8,5 @@ KEYWORDS=~amd64
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://fyn-github-mirror.qwe7951384261.workers.dev/https://github.com/Eugeny/tabby/releases/download/v1.0.170/tabby-1.0.170-linux.rpm
-_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	528663355249513309c74d7775936940	desktop	021728fdc1b03b36357dbc89489e0f0d
+_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	7828cd38ff559545ca52f92064d0f8f4	desktop	021728fdc1b03b36357dbc89489e0f0d
 _md5_=b4dc952d8f62906d5034591d2fbacaa3

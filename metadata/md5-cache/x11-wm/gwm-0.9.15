@@ -11,5 +11,5 @@ LICENSE=GPLv3
 RDEPEND=x11-base/xorg-server acpi? ( sys-power/acpi ) xsetroot? ( x11-apps/xsetroot ) dmenu? ( x11-misc/dmenu )
 SLOT=0
 SRC_URI=https://master.dl.sourceforge.net/project/gsmwm/gwm-0.9.15.tar.gz?viasf=1 -> gwm-0.9.15.tar.gz
-_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d
+_eclasses_=desktop	56973babb9c5f19cab0eeb53ece644c6
 _md5_=d015f5b5a145660c44dea2bcc9620319

@@ -28,7 +28,12 @@ BDEPEND=""
 
 QA_PREBUILT="*"
 
-S="${WORKDIR}/trilium-linux-x64"
+S="${WORKDIR}"
+
+src_unpack() {
+	unpack ${A}
+	unpack data.tar.gz
+}
 
 src_install() {
 	dodir /usr

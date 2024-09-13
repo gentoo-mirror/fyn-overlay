@@ -32,17 +32,16 @@ S="${WORKDIR}"
 
 src_unpack() {
 	unpack ${A}
-	unpack data.tar.gz
+	unpack ${WORKDIR}/data.tar.gz
 }
 
 src_install() {
 	dodir /usr
 	cp -a usr/* "${ED}"/usr || die
 	dobin usr/bin/pot
-	local res
-	for res in 16 32 256 512; do
-		doicon -s ${res} usr/share/icons/hicolor/${res}x${res}/apps/pot.png
-	done
+	doicon -s 32 usr/share/icons/hicolor/32x32/apps/pot.png
+	doicon -s 128 usr/share/icons/hicolor/128x128/apps/pot.png
+	doicon -s 256 usr/share/icons/hicolor/256x256@2/apps/pot.png
 	domenu usr/share/applications/pot.desktop
 }
 

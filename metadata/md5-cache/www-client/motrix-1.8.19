@@ -9,6 +9,6 @@ KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=x11-libs/gtk+:3 x11-libs/libxcb
 SLOT=0
-SRC_URI=https://github.com/agalwood/Motrix/releases/download/v1.6.11/Motrix-1.6.11.x86_64.rpm -> motrix-1.6.11.rpm
+SRC_URI=https://github.com/agalwood/Motrix/releases/download/v1.8.19/Motrix-1.8.19.x86_64.rpm -> motrix-1.8.19.rpm
 _eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	7828cd38ff559545ca52f92064d0f8f4	desktop	56973babb9c5f19cab0eeb53ece644c6
 _md5_=03c963755d0ffa1f78c67775688ae274

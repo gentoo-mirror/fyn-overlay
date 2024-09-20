@@ -32,12 +32,10 @@ BDEPEND=""
 
 QA_PREBUILT="*"
 
-S="${WORKDIR}"
+S="${WORKDIR}/pot-desktop-${PV}"
 
 src_prepare() {
 	eapply_user
-
-	sed -i "s/\"version\".*/\"version\": \"${PV}\"/g" src-tauri/tauri.conf.json || die "Sed failed!"
 	pnpm install
 }
 

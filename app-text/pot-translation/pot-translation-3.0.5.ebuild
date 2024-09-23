@@ -24,15 +24,15 @@ QA_PREBUILT="*"
 S="${WORKDIR}"
 
 src_unpack() {
-
+	true
 }
 
 src_install() {
 	dodir /opt/pot-desktop
-	cp &{A} "${ED}"/opt/pot-desktop/pot || die
+	cp ${DISTDIR}/pot-translation-${PV}.AppImage "${ED}"/opt/pot-desktop/pot || die
 	chmod +x "${ED}"/opt/pot-desktop/pot
 	exeinto /opt/bin
-	doexe /opt/pot-desktop/pot
+	doexe "${ED}"/opt/pot-desktop/pot
 	doicon -s 32 ${FILESDIR}/icons/hicolor/32x32/apps/pot.png
 	doicon -s 128 ${FILESDIR}/icons/hicolor/128x128/apps/pot.png
 	doicon -s 256 ${FILESDIR}/icons/hicolor/256x256@2/apps/pot.png

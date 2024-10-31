@@ -16,13 +16,19 @@ KEYWORDS="~amd64"
 DEPEND="
 	x11-libs/gtk+:3
 	dev-libs/nss
+	net-libs/nodejs
+	
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
 QA_PREBUILT="*"
 
-S="${WORKDIR}/trilium-linux-x64"
+S="${WORKDIR}/TriliumNext Notes-linux-x64"
+
+src_unpack() {
+	unpack TriliumNextNotes-v${PV}-linux-x64.zip
+}
 
 src_install() {
 	pax-mark m trilium
@@ -32,7 +38,7 @@ src_install() {
 	fperms -R +x /opt/${PN}/trilium
 	dosym "../../opt/${PN}/trilium" "usr/bin/trilium"
 	domenu "${FILESDIR}/trilium.desktop"
-	newicon "icon.png" "trilium.png"
+	newicon "${FILESDIR}/trilium.png" "trilium.png"
 }
 
 pkg_postinst() {

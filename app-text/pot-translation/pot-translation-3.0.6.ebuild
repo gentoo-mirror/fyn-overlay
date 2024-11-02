@@ -36,8 +36,8 @@ src_unpack() {
 }
 
 src_install() {
-	dodir /usr/bin
-	cp -a usr/bin/pot "${ED}"/usr/bin || die
+	dodir /opt/pot-desktop
+	cp -a usr/bin/pot "${ED}"/opt/pot-desktop || die
 	dobin usr/bin/pot
 	dodir /usr
 	cp -a usr/* "${ED}"/usr || die

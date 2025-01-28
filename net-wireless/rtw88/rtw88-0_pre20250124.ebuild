@@ -29,6 +29,7 @@ src_compile() {
 		rtw_8723du=net/wireless/realtek/rtw88
 		rtw_8723x=net/wireless/realtek/rtw88
 		rtw_8812au=net/wireless/realtek/rtw88
+		rtw_8814a=net/wireless/realtek/rtw88
 		rtw_8814au=net/wireless/realtek/rtw88
 		rtw_8821a=net/wireless/realtek/rtw88
 		rtw_8821au=net/wireless/realtek/rtw88
@@ -57,7 +58,7 @@ src_compile() {
 src_install() {
 	linux-mod-r1_src_install
 
-	insinto /lib/firmware
+	insinto /lib/firmware/rtw88
 	doins firmware/*.bin
 
 	insinto /etc/modprobe.d

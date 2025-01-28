@@ -3,6 +3,7 @@ app-text/pot-translation 3.0.5 3.0.6: A cross-platform software for text transla
 net-im/dingtalk 7.6.0.40718 7.6.15.4102301 7.6.25.4112601 7.6.25.4122001: Communication platform that supports video and audio conferencing
 net-im/tencent-qq 3.2.13_p28971 3.2.13_p29725: The new version of the official linux-qq(from gentoo-zh)
 net-misc/sharelist 0.3.12 0.3.15: ShareList 是一个易用的网盘工具，支持快速挂载 GoogleDrive、OneDrive ，可通过插件扩展功能。
+net-wireless/rtw88 0_pre20250124: A backport of the Realtek Wifi 5 drivers from the wireless-next repo.
 sys-kernel/cachyos-settings 1.0.5 1.0.7 1.0.8 1.1.4 1.1.7: Configuration files and tweaks from CachyOS
 www-client/motrix 1.6.11 1.8.19: Motrix is a full-featured download manager
 x11-terms/tabby 1.0.170 1.0.172 1.0.211: Tabby (formerly Terminus) is a highly configurable terminal emulator

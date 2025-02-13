@@ -6,4 +6,4 @@ KEYWORDS=~amd64
 LICENSE=GPL-1+
 SLOT=0
 SRC_URI=https://people.redhat.com/jakub/prelink/prelink-20130503.tar.bz2
-_md5_=f96cbdaee2be7bcbb0511c204bb8461a
+_md5_=848c7afe2e418dc3a8e64fb7364cc8cb

@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=set the executable stack flag of ELF binaries and libraries
+EAPI=8
+HOMEPAGE=https://people.redhat.com/jakub/prelink
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://people.redhat.com/jakub/prelink/prelink-20130503.tar.bz2
+_md5_=cf9e2c489a9a2e529c04accb0b6350fa

@@ -58,18 +58,9 @@ src_install() {
 	# use system freetype, fix undefined symbol: FT_Get_Color_Glyph_Layer
 	rm -rf "${S}"/opt/apps/"${MY_PGK_NAME}"/files/"${MY_VERSION}"/libfreetype.so* || die
 	# Fix the issue of not being able to start after updating
-	# execstack -c /opt/apps/"${MY_PGK_NAME}"/files/"${MY_VERSION}"/{dingtalk_dll,libconference_new}.so
+	execstack -c /opt/apps/"${MY_PGK_NAME}"/files/"${MY_VERSION}"/{dingtalk_dll,libconference_new}.so
 	# Set RPATH for preserve-libs handling
-	pushd "${S}"/opt/apps/"${MY_PGK_NAME}"/files/"${MY_VERSION}" || die
-	local x
-	for x in $(find) ; do
-		# Use \x7fELF header to separate ELF executables and libraries
-		[[ -f ${x} && $(od -t x1 -N 4 "${x}") == *"7f 45 4c 46"* ]] || continue
-		local RPATH_ROOT="/opt/apps/${MY_PGK_NAME}/files/${MY_VERSION}"
-		patchelf --set-rpath "${RPATH_ROOT}/:${RPATH_ROOT}/swiftshader/:${RPATH_ROOT}/platforminputcontexts/:${RPATH_ROOT}/imageformats/" "${x}" || \
-			die "patchelf failed on ${x}"
-	done
-	popd || die
+
 	# fix ldd pattern error
 	sed -i 's/libc_version=.*/libc_version=`ldd --version | grep ldd | rev | cut -d" " -f1 | rev`/g' "${S}"/opt/apps/"${MY_PGK_NAME}"/files/Elevator.sh || die
 	# Fix fcitx5
@@ -116,12 +107,5 @@ fi
 	insinto /usr
 	doins -r usr/*
 
-	pushd "${S}" || die
-	for x in $(find "opt/apps/${MY_PGK_NAME}") ; do
-		# Fix shell script permissions
-		[[ "${x: -3}" == ".sh" ]] && fperms 0755 "/${x}"
-		# Use \x7fELF header to separate ELF executables and libraries
-		[[ -f ${x} && $(od -t x1 -N 4 "${x}") == *"7f 45 4c 46"* ]] && fperms 0755 "/${x}"
-	done
-	popd || die
+
 }

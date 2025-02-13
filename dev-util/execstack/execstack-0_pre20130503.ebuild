@@ -16,11 +16,12 @@ src_prepare() {
 	default
 	# fix libelf detection
 	sed -i 's/#include <string.h>/&\n#include <unistd.h>/' m4/libelf.m4 || die
+	autoreconf -fi || die
 }
 
 src_compile() {
 	cd src
-	emake execstack
+	make execstack
 }
 
 src_install() {

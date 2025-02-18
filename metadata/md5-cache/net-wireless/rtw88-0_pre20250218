@@ -1,0 +1,16 @@
+BDEPEND=dev-util/pahole sys-apps/kmod[tools] modules-sign? ( dev-libs/openssl virtual/pkgconfig )
+DEFINED_PHASES=compile install postinst setup
+DEPEND=virtual/linux-sources
+DESCRIPTION=A backport of the Realtek Wifi 5 drivers from the wireless-next repo.
+EAPI=8
+HOMEPAGE=https://github.com/lwfinger/rtw88
+IDEPEND=sys-apps/kmod[tools]
+INHERIT=linux-mod-r1
+IUSE=dist-kernel modules-compress modules-sign +strip
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=sys-apps/kmod[tools] dist-kernel? ( virtual/dist-kernel:= )
+SLOT=0
+SRC_URI=https://github.com/lwfinger/rtw88/archive/95baebeceaedad549b7eef06b524395d73ead66a.tar.gz -> rtw88-0_pre20250218.tar.gz
+_eclasses_=mount-boot-utils	2551bac1a772f4b6beacb494a750ae92	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	dist-kernel-utils	97700892f3bc8ee315ee55ff5297a739	edo	367e103a74bf77e6a8da7894d999fa3c	linux-info	ea4122ba1d8791a12b78e53f9510a2e3	multiprocessing	1e32df7deee68372153dca65f4a7c21f	linux-mod-r1	84b53048ef3f4ee4f1b3dce65d43580e
+_md5_=b92caf4fd984ab2231da2c2dde832d5a

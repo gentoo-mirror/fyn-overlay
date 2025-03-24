@@ -12,5 +12,5 @@ RDEPEND=x11-libs/gtk+:3 x11-libs/libnotify dev-libs/nss appindicator? ( dev-libs
 RESTRICT=strip mirror
 SLOT=0
 SRC_URI=amd64? ( https://dldir1.qq.com/qqfile/qq/QQNT/4a705495/linuxqq_3.2.13-29725_amd64.deb ) liteloader? ( https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/1.2.1/LiteLoaderQQNT.zip -> LiteLoaderQQNT-1.2.1.zip )
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	unpacker	fb4b84181244b3b9990fa0bf40232dd2	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
 _md5_=5b4ad71d5069cfb74b24f211d5e415c3

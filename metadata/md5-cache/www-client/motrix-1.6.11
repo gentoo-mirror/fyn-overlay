@@ -10,5 +10,5 @@ LICENSE=MIT
 RDEPEND=x11-libs/gtk+:3 x11-libs/libxcb
 SLOT=0
 SRC_URI=https://github.com/agalwood/Motrix/releases/download/v1.6.11/Motrix-1.6.11.x86_64.rpm -> motrix-1.6.11.rpm
-_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	7828cd38ff559545ca52f92064d0f8f4	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed
+_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	a07e59be6cf48ed85e624a41e8a7a832	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed
 _md5_=03c963755d0ffa1f78c67775688ae274

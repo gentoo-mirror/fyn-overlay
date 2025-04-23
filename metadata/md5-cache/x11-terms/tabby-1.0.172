@@ -8,5 +8,5 @@ KEYWORDS=~amd64
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/Eugeny/tabby/releases/download/v1.0.172/tabby-1.0.172-linux.rpm
-_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	7828cd38ff559545ca52f92064d0f8f4	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed
+_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	a07e59be6cf48ed85e624a41e8a7a832	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed
 _md5_=66b189071d95e6bdda3b8b95e2a88efb

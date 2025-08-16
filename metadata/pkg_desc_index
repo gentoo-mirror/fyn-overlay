@@ -10,5 +10,5 @@ net-misc/starvpn 5.1.5: Motrix is a full-featured download manager
 net-wireless/rtw88 0_pre20250124 0_pre20250212 0_pre20250218 0_pre20250407 0_pre20250502: A backport of the Realtek Wifi 5 drivers from the wireless-next repo.
 sys-kernel/cachyos-settings 1.0.5 1.0.7 1.0.8 1.1.4 1.1.7 1.1.9: Configuration files and tweaks from CachyOS
 www-client/motrix 1.6.11 1.8.19: Motrix is a full-featured download manager
-x11-terms/tabby 1.0.170 1.0.172 1.0.211: Tabby (formerly Terminus) is a highly configurable terminal emulator
+x11-terms/tabby 1.0.170 1.0.172 1.0.211 1.0.225: Tabby (formerly Terminus) is a highly configurable terminal emulator
 x11-themes/la-capitaine-icon-theme 0.6.2: Icon pack based in macOS and Google Material Design
